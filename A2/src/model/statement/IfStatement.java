@@ -23,4 +23,9 @@ public record IfStatement
 
         return state;
     }
+
+    @Override
+    public Statement deepCopy() {
+        return new IfStatement(condition.deepCopy(), thenStatement.deepCopy(), elseStatement.deepCopy());
+    }
 }

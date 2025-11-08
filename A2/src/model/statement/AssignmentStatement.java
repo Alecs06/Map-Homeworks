@@ -25,4 +25,9 @@ public record AssignmentStatement
         symbolTable.updateValue(variableName, value);
         return state;
     }
+
+    @Override
+    public Statement deepCopy() {
+        return new AssignmentStatement(variableName, expression.deepCopy());
+    }
 }

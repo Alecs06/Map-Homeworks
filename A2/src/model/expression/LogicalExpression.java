@@ -29,4 +29,9 @@ public record LogicalExpression(
 
         return new BooleanValue(result);
     }
+
+    @Override
+    public Expression deepCopy() {
+        return new LogicalExpression(leftOperand.deepCopy(), rightOperand.deepCopy(), operator);
+    }
 }

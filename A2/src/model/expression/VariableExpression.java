@@ -14,4 +14,9 @@ public record VariableExpression(
         }
         return symbolTable.getVariableValue(variableName);
     }
+
+    @Override
+    public Expression deepCopy() {
+        return new VariableExpression(variableName);
+    }
 }

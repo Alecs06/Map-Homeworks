@@ -1,6 +1,5 @@
 package model.expression;
 
-import model.Type;
 import model.exception.DivideByZeroException;
 import model.exception.InvalidTypeException;
 import model.exception.UnknownOperatorException;
@@ -8,11 +7,7 @@ import model.value.IntegerValue;
 import model.value.Value;
 import state.SymbolTable;
 
-public record ArithmeticExpression(
-        Expression leftOperand,
-        Expression rightOperand,
-        char operator
-) implements Expression {
+public record ArithmeticExpression(Expression leftOperand, Expression rightOperand, char operator) implements Expression {
 
     @Override
     public Value evaluate(SymbolTable symbolTable) {
@@ -36,8 +31,13 @@ public record ArithmeticExpression(
         return new IntegerValue(result);
     }
 
+    @Override
+    public Expression deepCopy() {
+        return new ArithmeticExpression(leftOperand.deepCopy(), rightOperand.deepCopy(), operator);
+    }
+
     private static int divide(int leftInt, int rightInt) {
-        if (rightInt == 0) throw new DivideByZeroException();
+        if (rightInt == 0) throw new    DivideByZeroException();
         return leftInt / rightInt;
     }
 }

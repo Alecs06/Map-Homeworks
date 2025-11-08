@@ -1,7 +1,6 @@
 package state;
 
-import model.Type;
-import model.statement.Statement;
+import model.type.Type;
 import model.value.Value;
 
 import java.util.HashMap;

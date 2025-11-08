@@ -5,4 +5,5 @@ import state.SymbolTable;
 
 public interface Expression {
     Value evaluate(SymbolTable symbolTable);
+    Expression deepCopy();
 }

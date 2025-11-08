@@ -9,4 +9,9 @@ public record ValueExpression(Value value) implements Expression {
     public Value evaluate(SymbolTable symbolTable) {
         return value;
     }
+
+    @Override
+    public Expression deepCopy() {
+        return new ValueExpression(value);
+    }
 }

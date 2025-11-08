@@ -1,6 +1,6 @@
 package state;
 
-import model.Type;
+import model.type.Type;
 import model.value.Value;
 
 public interface SymbolTable {

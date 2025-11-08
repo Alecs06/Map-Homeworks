@@ -1,7 +1,7 @@
 package view;
 
 import controller.Controller;
-import model.Type;
+import model.type.Type;
 import model.expression.*;
 import model.statement.*;
 import model.value.BooleanValue;
