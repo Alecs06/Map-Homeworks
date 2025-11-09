@@ -15,6 +15,11 @@ public record BooleanValue(boolean value) implements Value {
     }
 
     @Override
+    public boolean equals(Value value) {
+        return this.value == ((BooleanValue) value).value;
+    }
+
+    @Override
     public String toString() {
         return String.valueOf(value);
     }

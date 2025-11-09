@@ -2,6 +2,10 @@ package repository;
 
 import state.ProgramState;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 public class Repository implements RepositoryInterface{
@@ -20,5 +24,17 @@ public class Repository implements RepositoryInterface{
     @Override
     public ProgramState getCrtPrg() {
         return programStates.get(currentStateIndex);
+    }
+
+    @Override
+    public void setCrtPrg(ProgramState state) {
+        programStates.set(currentStateIndex, state);
+    }
+
+    @Override
+    public void logCrtPrg() throws IOException {
+        PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter("logFile.txt",true)));
+        printWriter.println(getCrtPrg());
+        printWriter.close();
     }
 }

@@ -15,6 +15,11 @@ public record IntegerValue(int value) implements Value {
     }
 
     @Override
+    public boolean equals(Value value) {
+        return this.value == ((IntegerValue) value).value;
+    }
+
+    @Override
     public String toString() {
         return String.valueOf(value);
     }

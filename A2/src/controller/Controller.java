@@ -33,13 +33,14 @@ public class Controller implements ControllerInterface{
     @Override
     public void allSteps() throws Exception {
         ProgramState programState =repository.getCrtPrg() ;
-
+        repository.logCrtPrg();
         if(displayFlag){
             displayCurrentState();
         }
 
         while (!programState.executionStack().isEmpty()) {
             programState = oneStep(programState);
+            repository.logCrtPrg();
             if(displayFlag){
                 displayCurrentState();
             }
