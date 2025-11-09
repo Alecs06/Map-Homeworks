@@ -11,10 +11,20 @@ import java.util.List;
 public class Repository implements RepositoryInterface{
     private final List<ProgramState> programStates;
     private final int currentStateIndex;
+    private final String logFileName;
 
     public Repository(List<ProgramState> programStates) {
         this.programStates = programStates;
         this.currentStateIndex = 0;
+        this.logFileName = "logFile.txt";
+        if (programStates.isEmpty()) {
+            throw new IllegalArgumentException("Program states list cannot be empty");
+        }
+    }
+    public Repository(List<ProgramState> programStates,String logFileName) {
+        this.programStates = programStates;
+        this.currentStateIndex = 0;
+        this.logFileName = logFileName;
         if (programStates.isEmpty()) {
             throw new IllegalArgumentException("Program states list cannot be empty");
         }
@@ -33,7 +43,7 @@ public class Repository implements RepositoryInterface{
 
     @Override
     public void logCrtPrg() throws IOException {
-        PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter("logFile.txt",true)));
+        PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(logFileName,true)));
         printWriter.println(getCrtPrg());
         printWriter.close();
     }

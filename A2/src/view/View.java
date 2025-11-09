@@ -6,6 +6,7 @@ import model.expression.*;
 import model.statement.*;
 import model.value.BooleanValue;
 import model.value.IntegerValue;
+import model.value.StringValue;
 import repository.Repository;
 import state.*;
 
@@ -30,7 +31,7 @@ public class View implements ViewInterface{
             if (choice == 0) {
                 break;
             }
-            if (choice >= 1 && choice <= 3) {
+            if (choice >= 1 && choice <= 4) {
                 runProgram(choice);
             }
         }
@@ -41,6 +42,7 @@ public class View implements ViewInterface{
             case 1 -> example1();
             case 2 -> example2();
             case 3 -> example3();
+            case 4 -> fileExample;
             default -> null;
         };
 
@@ -49,9 +51,10 @@ public class View implements ViewInterface{
         ExecutionStack stack = new ListExecutionStack();
         SymbolTable symbolTable = new MapSymbolTable();
         Out out = new ListOut();
+        FileTable fileTable = new MapFileTable();
 
         stack.push(program);
-        ProgramState state = new ProgramState(stack, symbolTable, out);
+        ProgramState state = new ProgramState(stack, symbolTable, out, fileTable);
 
         List<ProgramState> states = new ArrayList<>();
         states.add(state);
@@ -91,4 +94,20 @@ public class View implements ViewInterface{
                new PrintStatement(new VariableExpression("v")))))
         );
     }
+    Statement fileExample = new CompoundStatement(new VariableDeclarationStatement(Type.STRING, "varf"),
+            new CompoundStatement(new AssignmentStatement("varf", new ValueExpression(new StringValue("test.in"))),
+                    new CompoundStatement(new OpenRFileStatement(new VariableExpression("varf")),
+                            new CompoundStatement(new VariableDeclarationStatement(Type.INTEGER, "varc"),
+                                    new CompoundStatement(new ReadFileStatement(new VariableExpression("varf"), "varc"),
+                                            new CompoundStatement(new PrintStatement(new VariableExpression("varc")),
+                                                    new CompoundStatement(new ReadFileStatement(new VariableExpression("varf"), "varc"),
+                                                            new CompoundStatement(new PrintStatement(new VariableExpression("varc")),new CloseRFileStatement(new VariableExpression("varf"))
+                                                            )
+                                                    )
+                                            )
+                                    )
+                            )
+                    )
+            )
+    );
 }
