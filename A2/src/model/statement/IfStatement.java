@@ -11,7 +11,7 @@ public record IfStatement
 
     @Override
     public ProgramState execute(ProgramState state) {
-        Value value = condition.evaluate(state.symbolTable());
+        Value value = condition.evaluate(state.symbolTable(), state.heap());
         if (!(value instanceof BooleanValue(boolean booleanValue))) {
             throw new InvalidTypeException();
         }

@@ -1,6 +1,6 @@
 package model.statement;
 
-import model.type.Type;
+import model.type.SimpleType;
 import model.exception.FileNotOpenException;
 import model.exception.InvalidTypeException;
 import model.expression.Expression;
@@ -15,7 +15,7 @@ public record ReadFileStatement(Expression expression, String variableName) impl
     @Override
     public ProgramState execute(ProgramState state) {
         if(!state.symbolTable().isDefined(variableName) ||
-                state.symbolTable().getVariableType(variableName) != Type.INTEGER) {
+                state.symbolTable().getVariableType(variableName) != SimpleType.INTEGER) {
             throw new InvalidTypeException();
         }
 

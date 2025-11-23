@@ -4,6 +4,7 @@ import model.exception.InvalidTypeException;
 import model.exception.UnknownOperatorException;
 import model.value.BooleanValue;
 import model.value.Value;
+import state.Heap;
 import state.SymbolTable;
 
 public record LogicalExpression(
@@ -12,12 +13,12 @@ public record LogicalExpression(
         String operator
 ) implements Expression {
     @Override
-    public Value evaluate(SymbolTable symbolTable) {
-        Value leftValue = leftOperand.evaluate(symbolTable);
+    public Value evaluate(SymbolTable symbolTable, Heap heap) {
+        Value leftValue = leftOperand.evaluate(symbolTable, heap);
         if (!(leftValue instanceof BooleanValue(boolean leftBool)))
             throw new InvalidTypeException();
 
-        Value rightValue = rightOperand.evaluate(symbolTable);
+        Value rightValue = rightOperand.evaluate(symbolTable, heap);
         if (!(rightValue instanceof BooleanValue(boolean rightBool)))
             throw new InvalidTypeException();
 

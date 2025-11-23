@@ -4,7 +4,8 @@ public record ProgramState(
         ExecutionStack executionStack,
         SymbolTable symbolTable,
         Out out,
-        FileTable fileTable) {
+        FileTable fileTable,
+        Heap heap) {
 
     @Override
     public String toString() {
@@ -13,7 +14,7 @@ public record ProgramState(
                 ", symbolTable=" + symbolTable +
                 ", out=" + out +
                 ", fileTable=" + fileTable +
+                ", heap=" + heap +
                 '}';
     }
-
 }

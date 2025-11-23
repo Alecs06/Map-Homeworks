@@ -1,12 +1,13 @@
 package model.value;
 
 import model.type.Type;
+import model.type.SimpleType;
 
 public record IntegerValue(int value) implements Value {
 
     @Override
     public Type getType() {
-        return Type.INTEGER;
+        return SimpleType.INTEGER;
     }
 
     @Override

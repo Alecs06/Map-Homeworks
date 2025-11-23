@@ -17,7 +17,7 @@ public record AssignmentStatement
             throw new VariableNotDefinedException();
         }
 
-        Value value = expression.evaluate(symbolTable);
+        Value value = expression.evaluate(symbolTable, state.heap());
         if (value.getType() != symbolTable.getVariableType(variableName)) {
             throw new InvalidTypeException();
         }

@@ -2,6 +2,7 @@ package state;
 
 import model.type.Type;
 import model.value.Value;
+import java.util.Map;
 
 public interface SymbolTable {
     boolean isDefined(String variableName);
@@ -14,4 +15,5 @@ public interface SymbolTable {
 
     Value getVariableValue(String variableName);
 
+    Map<String, Value> getContent();
 }

@@ -5,18 +5,19 @@ import model.exception.InvalidTypeException;
 import model.exception.UnknownOperatorException;
 import model.value.IntegerValue;
 import model.value.Value;
+import state.Heap;
 import state.SymbolTable;
 
 public record ArithmeticExpression(Expression leftOperand, Expression rightOperand, char operator) implements Expression {
 
     @Override
-    public Value evaluate(SymbolTable symbolTable) {
+    public Value evaluate(SymbolTable symbolTable, Heap heap) {
 
-        Value leftValue = leftOperand.evaluate(symbolTable);
+        Value leftValue = leftOperand.evaluate(symbolTable, heap);
         if (!(leftValue instanceof IntegerValue(int leftInt)))
             throw new InvalidTypeException();
 
-        Value rightValue = rightOperand.evaluate(symbolTable);
+        Value rightValue = rightOperand.evaluate(symbolTable, heap);
         if (!(rightValue instanceof IntegerValue(int rightInt)))
             throw new InvalidTypeException();
 
@@ -37,7 +38,7 @@ public record ArithmeticExpression(Expression leftOperand, Expression rightOpera
     }
 
     private static int divide(int leftInt, int rightInt) {
-        if (rightInt == 0) throw new    DivideByZeroException();
+        if (rightInt == 0) throw new DivideByZeroException();
         return leftInt / rightInt;
     }
 }

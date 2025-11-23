@@ -35,6 +35,11 @@ public class MapSymbolTable implements SymbolTable {
     }
 
     @Override
+    public Map<String, Value> getContent() {
+        return symbolTable;
+    }
+
+    @Override
     public String toString() {
         return "SymbolTable: " + symbolTable;
     }

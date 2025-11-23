@@ -5,17 +5,18 @@ import model.exception.UnknownOperatorException;
 import model.value.BooleanValue;
 import model.value.IntegerValue;
 import model.value.Value;
+import state.Heap;
 import state.SymbolTable;
 
 public record RelationExpression(Expression leftOperand, Expression rightOperand, String operator) implements Expression {
     
     @Override
-    public Value evaluate(SymbolTable symbolTable) {
-        Value leftValue = leftOperand.evaluate(symbolTable);
+    public Value evaluate(SymbolTable symbolTable, Heap heap) {
+        Value leftValue = leftOperand.evaluate(symbolTable, heap);
         if (!(leftValue instanceof IntegerValue(int leftInt)))
             throw new InvalidTypeException();
 
-        Value rightValue = rightOperand.evaluate(symbolTable);
+        Value rightValue = rightOperand.evaluate(symbolTable, heap);
         if (!(rightValue instanceof IntegerValue(int rightInt)))
             throw new InvalidTypeException();
 
