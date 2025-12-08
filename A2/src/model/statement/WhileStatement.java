@@ -11,7 +11,7 @@ public record WhileStatement(Expression condition, Statement statement) implemen
     @Override
     public ProgramState execute(ProgramState state) {
         Value value = condition.evaluate(state.symbolTable(), state.heap());
-        
+
         if (!(value instanceof BooleanValue(boolean boolValue))) {
             throw new InvalidTypeException();
         }
@@ -20,7 +20,7 @@ public record WhileStatement(Expression condition, Statement statement) implemen
             state.executionStack().push(this);
             state.executionStack().push(statement);
         }
-        return state;
+        return null;
     }
 
     @Override

@@ -73,10 +73,8 @@ void main() {
     Statement heapExample1 = new CompoundStatement(
             new VariableDeclarationStatement(new ReferenceType(SimpleType.INTEGER), "v"),
             new CompoundStatement(new HeapAllocationStatement("v", new ValueExpression(new IntegerValue(20))),
-            new CompoundStatement(new VariableDeclarationStatement(new ReferenceType(new ReferenceType(SimpleType.INTEGER)), "a"),
-            new CompoundStatement(new HeapAllocationStatement("a", new VariableExpression("v")),
             new CompoundStatement(new HeapAllocationStatement("v", new ValueExpression(new IntegerValue(30))),
-            new PrintStatement(new HeapReadExpression(new HeapReadExpression(new VariableExpression("a"))))))))
+            new PrintStatement(new HeapReadExpression(new VariableExpression("v")))))
     );
 
     ProgramState prg5 = new ProgramState(new ListExecutionStack(), new MapSymbolTable(), new ListOut(), new MapFileTable(), new MapHeap());
@@ -107,6 +105,34 @@ void main() {
     Repository repo6 = new Repository(list6,"logFile6.txt");
     Controller ctr6 = new Controller(repo6);
 
+
+
+    Statement forkBody = new CompoundStatement(
+            new HeapWriteStatement("a", new ValueExpression(new IntegerValue(30))),
+            new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntegerValue(32))),
+            new CompoundStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new HeapReadExpression(new VariableExpression("a")))))
+    );
+
+    Statement afterFork = new CompoundStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new HeapReadExpression(new VariableExpression("a"))));
+
+    Statement forkExample = new CompoundStatement(
+            new VariableDeclarationStatement(SimpleType.INTEGER, "v"),
+            new CompoundStatement(new VariableDeclarationStatement(new ReferenceType(SimpleType.INTEGER), "a"),
+            new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntegerValue(10))),
+            new CompoundStatement(new HeapAllocationStatement("a", new ValueExpression(new IntegerValue(22))),
+            new CompoundStatement(new ForkStatement(forkBody), afterFork)
+                            )
+                    )
+            )
+    );
+
+    ProgramState prg7 = new ProgramState(new ListExecutionStack(), new MapSymbolTable(), new ListOut(), new MapFileTable(), new MapHeap());
+    prg7.executionStack().push(forkExample);
+    List<ProgramState> list7 = new ArrayList<>();
+    list7.add(prg7);
+    Repository repo7 = new Repository(list7,"logFile7.txt");
+    Controller ctr7 = new Controller(repo7);
+
     TextMenu menu = new TextMenu();
     menu.addCommand(new ExitCommand("0", "exit"));
     menu.addCommand(new RunExample("1","Example 1: int v; v=2; print(v)", ctr1));
@@ -115,5 +141,6 @@ void main() {
     menu.addCommand(new RunExample("4","Example 4: File operations", ctr4));
     menu.addCommand(new RunExample("5","Example 5: Heap - Ref Ref int (garbage collector test)", ctr5));
     menu.addCommand(new RunExample("6","Example 6: While loop", ctr6));
+    menu.addCommand(new RunExample("7","Example 7: Fork example", ctr7));
     menu.show();
 }

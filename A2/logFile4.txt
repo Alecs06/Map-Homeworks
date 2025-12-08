@@ -212,3 +212,479 @@ ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=PrintStatem
 ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CloseRFileStatement[expression=VariableExpression[variableName=varf]]], symbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}, out=Output: [15], fileTable=state.MapFileTable@66a29884, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [CloseRFileStatement[expression=VariableExpression[variableName=varf]]], symbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}, out=Output: [15, 50], fileTable=state.MapFileTable@66a29884, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}, out=Output: [15, 50], fileTable=state.MapFileTable@66a29884, heap=Heap: {}}
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=STRING, variableName=varf], second=CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=STRING, variableName=varf], CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=STRING, variableName=varf], CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [OpenRFileStatement[expression=VariableExpression[variableName=varf]], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [OpenRFileStatement[expression=VariableExpression[variableName=varf]], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=varc], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=varc], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@5010be6
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=STRING, variableName=varf], second=CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=STRING, variableName=varf], CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=STRING, variableName=varf], CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], second=CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=varf, expression=ValueExpression[value=StringValue[value=test.in]]], CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=OpenRFileStatement[expression=VariableExpression[variableName=varf]], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [OpenRFileStatement[expression=VariableExpression[variableName=varf]], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [OpenRFileStatement[expression=VariableExpression[variableName=varf]], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=varc], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=varc], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=varc], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in]}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=0}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: []
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], second=CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [ReadFileStatement[expression=VariableExpression[variableName=varf], variableName=varc], CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=15}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CompoundStatement[first=PrintStatement[expression=VariableExpression[variableName=varc]], second=CloseRFileStatement[expression=VariableExpression[variableName=varf]]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=varc]], CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: [CloseRFileStatement[expression=VariableExpression[variableName=varf]]]
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+
+Id=4
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {varf=StringValue[value=test.in], varc=50}
+Out=Output: [15, 50]
+FileTable=state.MapFileTable@7daf6ecc
+Heap=Heap: {}
+

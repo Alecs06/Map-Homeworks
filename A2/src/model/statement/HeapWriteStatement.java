@@ -37,7 +37,7 @@ public record HeapWriteStatement(String variableName, Expression expression) imp
         }
 
         state.heap().update(address, value);
-        return state;
+        return null;
     }
 
     @Override

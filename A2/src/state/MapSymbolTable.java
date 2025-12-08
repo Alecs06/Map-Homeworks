@@ -9,6 +9,13 @@ import java.util.Map;
 public class MapSymbolTable implements SymbolTable {
     private final Map<String, Value> symbolTable = new HashMap<>();
 
+    public MapSymbolTable() {}
+
+    // copy constructor used by deepCopy
+    private MapSymbolTable(Map<String, Value> content) {
+        this.symbolTable.putAll(content);
+    }
+
     @Override
     public boolean isDefined(String variableName) {
         return symbolTable.containsKey(variableName);
@@ -37,6 +44,11 @@ public class MapSymbolTable implements SymbolTable {
     @Override
     public Map<String, Value> getContent() {
         return symbolTable;
+    }
+
+    @Override
+    public SymbolTable deepCopy() {
+        return new MapSymbolTable(new HashMap<>(this.symbolTable));
     }
 
     @Override

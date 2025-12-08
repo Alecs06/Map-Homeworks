@@ -16,7 +16,7 @@ public record VariableDeclarationStatement(Type type, String variableName) imple
         }
 
         symbolTable.declareVariable(type, variableName);
-        return state;
+        return null;
     }
 
     @Override
@@ -24,4 +24,3 @@ public record VariableDeclarationStatement(Type type, String variableName) imple
         return new VariableDeclarationStatement(type, variableName);
     }
 }
-    

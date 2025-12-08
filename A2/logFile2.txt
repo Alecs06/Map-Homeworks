@@ -106,3 +106,255 @@ ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentS
 ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], PrintStatement[expression=VariableExpression[variableName=b]]], symbolTable=SymbolTable: {a=17, b=0}, out=Output: [], fileTable=state.MapFileTable@133314b, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=b]]], symbolTable=SymbolTable: {a=17, b=18}, out=Output: [], fileTable=state.MapFileTable@133314b, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=17, b=18}, out=Output: [18], fileTable=state.MapFileTable@133314b, heap=Heap: {}}
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=b], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=b], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: []
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: [18]
+FileTable=state.MapFileTable@433c675d
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=b], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=b], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=b], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], second=CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ArithmeticExpression[leftOperand=ValueExpression[value=2], rightOperand=ArithmeticExpression[leftOperand=ValueExpression[value=3], rightOperand=ValueExpression[value=5], operator=*], operator=+]], CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=0, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], second=PrintStatement[expression=VariableExpression[variableName=b]]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=b, expression=ArithmeticExpression[leftOperand=VariableExpression[variableName=a], rightOperand=ValueExpression[value=1], operator=+]], PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=0}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=b]]]
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: []
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+
+Id=2
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {a=17, b=18}
+Out=Output: [18]
+FileTable=state.MapFileTable@1a6c5a9e
+Heap=Heap: {}
+

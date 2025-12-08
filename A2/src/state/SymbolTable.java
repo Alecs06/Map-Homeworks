@@ -16,4 +16,6 @@ public interface SymbolTable {
     Value getVariableValue(String variableName);
 
     Map<String, Value> getContent();
+
+    SymbolTable deepCopy();
 }

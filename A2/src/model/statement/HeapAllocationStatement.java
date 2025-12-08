@@ -31,7 +31,7 @@ public record HeapAllocationStatement(String variableName, Expression expression
         ReferenceValue newRefValue = new ReferenceValue(newAddress, refType.getInner());
         state.symbolTable().updateValue(variableName, newRefValue);
 
-        return state;
+        return null;
     }
 
     @Override

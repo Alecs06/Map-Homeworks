@@ -9,42 +9,38 @@ import java.io.PrintWriter;
 import java.util.List;
 
 public class Repository implements RepositoryInterface{
-    private final List<ProgramState> programStates;
-    private final int currentStateIndex;
+    private List<ProgramState> programStates;
     private final String logFileName;
 
     public Repository(List<ProgramState> programStates) {
-        this.programStates = programStates;
-        this.currentStateIndex = 0;
-        this.logFileName = "logFile.txt";
-        if (programStates.isEmpty()) {
-            throw new IllegalArgumentException("Program states list cannot be empty");
+        if (programStates == null || programStates.isEmpty()) {
+            throw new IllegalArgumentException("Program states list cannot be null or empty");
         }
+        this.programStates = programStates;
+        this.logFileName = "logFile.txt";
     }
     public Repository(List<ProgramState> programStates,String logFileName) {
-        this.programStates = programStates;
-        this.currentStateIndex = 0;
-        this.logFileName = logFileName;
-        if (programStates.isEmpty()) {
-            throw new IllegalArgumentException("Program states list cannot be empty");
+        if (programStates == null || programStates.isEmpty()) {
+            throw new IllegalArgumentException("Program states list cannot be null or empty");
         }
-    }
-
-
-    @Override
-    public ProgramState getCrtPrg() {
-        return programStates.get(currentStateIndex);
+        this.programStates = programStates;
+        this.logFileName = logFileName;
     }
 
     @Override
-    public void setCrtPrg(ProgramState state) {
-        programStates.set(currentStateIndex, state);
+    public List<ProgramState> getPrgList() {
+        return programStates;
     }
 
     @Override
-    public void logCrtPrg() throws IOException {
-        PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(logFileName,true)));
-        printWriter.println(getCrtPrg());
-        printWriter.close();
+    public void setPrgList(List<ProgramState> prgList) {
+        this.programStates = prgList;
+    }
+
+    @Override
+    public void logPrgStateExec(ProgramState state) throws IOException {
+        try (PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(logFileName,true)))) {
+            printWriter.println(state);
+        }
     }
 }

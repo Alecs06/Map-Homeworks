@@ -62,3 +62,143 @@ ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentS
 ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {v=0}, out=Output: [], fileTable=state.MapFileTable@5f184fc6, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {v=2}, out=Output: [], fileTable=state.MapFileTable@5f184fc6, heap=Heap: {}}
 ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {v=2}, out=Output: [2], fileTable=state.MapFileTable@5f184fc6, heap=Heap: {}}
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=2}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=2}
+Out=Output: []
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {v=2}
+Out=Output: [2]
+FileTable=state.MapFileTable@312b1dae
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=0}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=2}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable=SymbolTable: {v=2}
+Out=Output: []
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
+Id=1
+ExecutionStack=ExecutionStack: []
+SymbolTable=SymbolTable: {v=2}
+Out=Output: [2]
+FileTable=state.MapFileTable@27bc2616
+Heap=Heap: {}
+
