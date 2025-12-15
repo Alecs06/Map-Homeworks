@@ -6,6 +6,8 @@ import model.expression.Expression;
 import model.value.Value;
 import state.ProgramState;
 import state.SymbolTable;
+import model.dictionary.MyIDictionary;
+import model.type.Type;
 
 public record AssignmentStatement
         (String variableName, Expression expression) implements Statement {
@@ -29,5 +31,15 @@ public record AssignmentStatement
     @Override
     public Statement deepCopy() {
         return new AssignmentStatement(variableName, expression.deepCopy());
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typevar = typeEnv.lookup(variableName);
+        Type typexp = expression.typecheck(typeEnv);
+        if (typevar == null) throw new VariableNotDefinedException();
+        if (!typevar.equals(typexp))
+            throw new InvalidTypeException();
+        return typeEnv;
     }
 }

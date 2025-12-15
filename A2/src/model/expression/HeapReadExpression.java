@@ -5,6 +5,9 @@ import model.value.ReferenceValue;
 import model.value.Value;
 import state.Heap;
 import state.SymbolTable;
+import model.type.Type;
+import model.type.ReferenceType;
+import model.dictionary.MyIDictionary;
 
 public record HeapReadExpression(Expression expression) implements Expression {
 
@@ -32,5 +35,14 @@ public record HeapReadExpression(Expression expression) implements Expression {
     @Override
     public String toString() {
         return "rH(" + expression + ")";
+    }
+
+    @Override
+    public Type typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typ = expression.typecheck(typeEnv);
+        if (typ instanceof ReferenceType refType) {
+            return refType.getInner();
+        }
+        throw new InvalidTypeException();
     }
 }

@@ -1,399 +1,280 @@
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7291c18f}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@34a245ab}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@7cd84586, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=false, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=0}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
-ProgramState{executionStack=ExecutionStack: [], symbolTable=SymbolTable: {a=true, v=2}, out=Output: [2], fileTable=state.MapFileTable@1e80bfe8, heap=Heap: {}}
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
+SymbolTable:SymbolTable: {a=false}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
+SymbolTable:SymbolTable: {a=false}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable:SymbolTable: {a=false}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable:SymbolTable: {a=false}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable:SymbolTable: {a=false, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
+SymbolTable:SymbolTable: {a=false, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable:SymbolTable: {a=false, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable:SymbolTable: {a=false, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=0}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=2}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
+SymbolTable:SymbolTable: {a=true, v=2}
+Out:Output: []
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
+Id:3
+ExecutionStack:ExecutionStack: []
+SymbolTable:SymbolTable: {a=true, v=2}
+Out:Output: [2]
+FileTable:state.MapFileTable@685f4c2e
+Heap:Heap: {}
+
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]]
 SymbolTable=SymbolTable: {}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
 SymbolTable=SymbolTable: {}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
 SymbolTable=SymbolTable: {}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
 SymbolTable=SymbolTable: {a=false}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
 SymbolTable=SymbolTable: {a=false}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
 SymbolTable=SymbolTable: {a=false}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
 SymbolTable=SymbolTable: {a=false}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
 SymbolTable=SymbolTable: {a=false, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
 SymbolTable=SymbolTable: {a=false, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
 SymbolTable=SymbolTable: {a=false, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
 SymbolTable=SymbolTable: {a=false, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=0}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=2}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
 SymbolTable=SymbolTable: {a=true, v=2}
 Out=Output: []
-FileTable=state.MapFileTable@439f5b3d
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 
 Id=3
 ExecutionStack=ExecutionStack: []
 SymbolTable=SymbolTable: {a=true, v=2}
 Out=Output: [2]
-FileTable=state.MapFileTable@439f5b3d
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=BOOLEAN, variableName=a], second=CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]]
-SymbolTable=SymbolTable: {}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
-SymbolTable=SymbolTable: {}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=BOOLEAN, variableName=a], CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
-SymbolTable=SymbolTable: {}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
-SymbolTable=SymbolTable: {a=false}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=INTEGER, variableName=v], second=CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]]
-SymbolTable=SymbolTable: {a=false}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
-SymbolTable=SymbolTable: {a=false}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [VariableDeclarationStatement[type=INTEGER, variableName=v], CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
-SymbolTable=SymbolTable: {a=false}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
-SymbolTable=SymbolTable: {a=false, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], second=CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]]
-SymbolTable=SymbolTable: {a=false, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
-SymbolTable=SymbolTable: {a=false, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=a, expression=ValueExpression[value=true]], CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
-SymbolTable=SymbolTable: {a=false, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [CompoundStatement[first=IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], second=PrintStatement[expression=VariableExpression[variableName=v]]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [IfStatement[condition=VariableExpression[variableName=a], thenStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], elseStatement=AssignmentStatement[variableName=v, expression=ValueExpression[value=3]]], PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [AssignmentStatement[variableName=v, expression=ValueExpression[value=2]], PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=0}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=2}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: [PrintStatement[expression=VariableExpression[variableName=v]]]
-SymbolTable=SymbolTable: {a=true, v=2}
-Out=Output: []
-FileTable=state.MapFileTable@5197848c
-Heap=Heap: {}
-
-Id=3
-ExecutionStack=ExecutionStack: []
-SymbolTable=SymbolTable: {a=true, v=2}
-Out=Output: [2]
-FileTable=state.MapFileTable@5197848c
+FileTable=state.MapFileTable@5010be6
 Heap=Heap: {}
 

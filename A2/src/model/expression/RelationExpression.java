@@ -7,6 +7,9 @@ import model.value.IntegerValue;
 import model.value.Value;
 import state.Heap;
 import state.SymbolTable;
+import model.type.Type;
+import model.type.SimpleType;
+import model.dictionary.MyIDictionary;
 
 public record RelationExpression(Expression leftOperand, Expression rightOperand, String operator) implements Expression {
     
@@ -36,5 +39,16 @@ public record RelationExpression(Expression leftOperand, Expression rightOperand
     @Override
     public Expression deepCopy() {
         return new RelationExpression(leftOperand.deepCopy(), rightOperand.deepCopy(), operator);
+    }
+
+    @Override
+    public Type typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typ1 = leftOperand.typecheck(typeEnv);
+        Type typ2 = rightOperand.typecheck(typeEnv);
+        if (!typ1.equals(SimpleType.INTEGER))
+            throw new InvalidTypeException();
+        if (!typ2.equals(SimpleType.INTEGER))
+            throw new InvalidTypeException();
+        return SimpleType.BOOLEAN;
     }
 }

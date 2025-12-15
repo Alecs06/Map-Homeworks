@@ -9,6 +9,8 @@ import state.ProgramState;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import model.dictionary.MyIDictionary;
+import model.type.Type;
 
 public record ReadFileStatement(Expression expression, String variableName) implements Statement {
 
@@ -41,5 +43,15 @@ public record ReadFileStatement(Expression expression, String variableName) impl
     @Override
     public Statement deepCopy() {
         return new ReadFileStatement(expression.deepCopy(), variableName);
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type t = expression.typecheck(typeEnv);
+        if (!t.equals(SimpleType.STRING)) throw new Exception("Read file expression is not a string");
+        Type varType = typeEnv.lookup(variableName);
+        if (varType == null) throw new Exception("Variable not defined: " + variableName);
+        if (!varType.equals(SimpleType.INTEGER)) throw new Exception("Variable " + variableName + " is not an integer");
+        return typeEnv;
     }
 }

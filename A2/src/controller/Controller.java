@@ -123,7 +123,7 @@ public class Controller implements ControllerInterface{
 
         prgList.addAll(newPrgList);
 
-        // log after
+
         prgList.forEach(prg -> {
             try {
                 repository.logPrgStateExec(prg);

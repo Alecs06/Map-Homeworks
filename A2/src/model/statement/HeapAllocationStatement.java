@@ -7,6 +7,8 @@ import model.type.ReferenceType;
 import model.value.ReferenceValue;
 import model.value.Value;
 import state.ProgramState;
+import model.dictionary.MyIDictionary;
+import model.type.Type;
 
 public record HeapAllocationStatement(String variableName, Expression expression) implements Statement {
 
@@ -42,5 +44,15 @@ public record HeapAllocationStatement(String variableName, Expression expression
     @Override
     public String toString() {
         return "new(" + variableName + ", " + expression + ")";
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typevar = typeEnv.lookup(variableName);
+        Type typexp = expression.typecheck(typeEnv);
+        if (typevar == null) throw new VariableNotDefinedException();
+        if (!typevar.equals(new ReferenceType(typexp)))
+            throw new InvalidTypeException();
+        return typeEnv;
     }
 }

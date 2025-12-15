@@ -7,6 +7,9 @@ import model.value.IntegerValue;
 import model.value.Value;
 import state.Heap;
 import state.SymbolTable;
+import model.type.Type;
+import model.type.SimpleType;
+import model.dictionary.MyIDictionary;
 
 public record ArithmeticExpression(Expression leftOperand, Expression rightOperand, char operator) implements Expression {
 
@@ -40,5 +43,16 @@ public record ArithmeticExpression(Expression leftOperand, Expression rightOpera
     private static int divide(int leftInt, int rightInt) {
         if (rightInt == 0) throw new DivideByZeroException();
         return leftInt / rightInt;
+    }
+
+    @Override
+    public Type typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typ1 = leftOperand.typecheck(typeEnv);
+        Type typ2 = rightOperand.typecheck(typeEnv);
+        if (!typ1.equals(SimpleType.INTEGER))
+            throw new InvalidTypeException();
+        if (!typ2.equals(SimpleType.INTEGER))
+            throw new InvalidTypeException();
+        return SimpleType.INTEGER;
     }
 }

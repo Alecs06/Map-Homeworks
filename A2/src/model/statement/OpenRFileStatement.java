@@ -9,6 +9,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 import static model.statement.StatementUtil.evaluateToString;
+import model.dictionary.MyIDictionary;
+import model.type.Type;
+import model.type.SimpleType;
 
 public record OpenRFileStatement(Expression expression) implements Statement {
     @Override
@@ -31,5 +34,12 @@ public record OpenRFileStatement(Expression expression) implements Statement {
     @Override
     public Statement deepCopy() {
         return new OpenRFileStatement(expression.deepCopy());
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type t = expression.typecheck(typeEnv);
+        if (!t.equals(SimpleType.STRING)) throw new Exception("Open file expression is not a string");
+        return typeEnv;
     }
 }

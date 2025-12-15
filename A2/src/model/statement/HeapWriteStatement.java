@@ -7,6 +7,8 @@ import model.type.ReferenceType;
 import model.value.ReferenceValue;
 import model.value.Value;
 import state.ProgramState;
+import model.dictionary.MyIDictionary;
+import model.type.Type;
 
 public record HeapWriteStatement(String variableName, Expression expression) implements Statement {
 
@@ -48,5 +50,15 @@ public record HeapWriteStatement(String variableName, Expression expression) imp
     @Override
     public String toString() {
         return "wH(" + variableName + ", " + expression + ")";
+    }
+
+    @Override
+    public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typevar = typeEnv.lookup(variableName);
+        Type typexp = expression.typecheck(typeEnv);
+        if (typevar == null) throw new VariableNotDefinedException();
+        if (! (typevar instanceof ReferenceType refType)) throw new InvalidTypeException();
+        if (! refType.getInner().equals(typexp)) throw new InvalidTypeException();
+        return typeEnv;
     }
 }

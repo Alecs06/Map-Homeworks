@@ -6,6 +6,9 @@ import model.value.BooleanValue;
 import model.value.Value;
 import state.Heap;
 import state.SymbolTable;
+import model.type.Type;
+import model.type.SimpleType;
+import model.dictionary.MyIDictionary;
 
 public record LogicalExpression(
         Expression leftOperand,
@@ -34,5 +37,16 @@ public record LogicalExpression(
     @Override
     public Expression deepCopy() {
         return new LogicalExpression(leftOperand.deepCopy(), rightOperand.deepCopy(), operator);
+    }
+
+    @Override
+    public Type typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
+        Type typ1 = leftOperand.typecheck(typeEnv);
+        Type typ2 = rightOperand.typecheck(typeEnv);
+        if (!typ1.equals(SimpleType.BOOLEAN))
+            throw new InvalidTypeException();
+        if (!typ2.equals(SimpleType.BOOLEAN))
+            throw new InvalidTypeException();
+        return SimpleType.BOOLEAN;
     }
 }
