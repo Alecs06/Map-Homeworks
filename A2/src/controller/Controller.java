@@ -8,9 +8,6 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
-
-import model.statement.Statement;
-import state.ExecutionStack;
 import model.value.ReferenceValue;
 import model.value.Value;
 
@@ -24,22 +21,11 @@ public class Controller implements ControllerInterface{
         this.displayFlag = false;
     }
 
-    //public Controller(Repository repository, boolean displayFlag) {
-    //    this.repository = repository;
-    //    this.displayFlag = displayFlag;
-    //}
-
     @Override
     public ProgramState oneStep(ProgramState state) throws Exception {
         return state.oneStep();
     }
 
-        //private List<Integer> getAddrFromSymTable(Collection<Value> symTableValues) {
-        //    return symTableValues.stream().filter(v -> v instanceof ReferenceValue).map(v -> {
-        //                ReferenceValue v1 = (ReferenceValue) v;
-        //                return v1.getAddr();
-        //            }).collect(Collectors.toList());
-        //}
 
     private List<Integer> getAddrFromHeap(Collection<Value> heapValues) {
         return heapValues.stream().filter(v -> v instanceof ReferenceValue).map(v -> {
@@ -98,6 +84,10 @@ public class Controller implements ControllerInterface{
     }
 
     public void oneStepForAllPrg(List<ProgramState> prgList) throws InterruptedException {
+        if (executor == null || executor.isShutdown()) {
+            executor = Executors.newFixedThreadPool(2);
+        }
+
         prgList.forEach(prg -> {
             try {
                 repository.logPrgStateExec(prg);
@@ -115,15 +105,21 @@ public class Controller implements ControllerInterface{
                     try {
                         return future.get();
                     } catch (Exception e) {
-                        throw new RuntimeException(e);
+                        // This will catch errors inside oneStep()
+                        System.out.println("Step Error: " + e.getMessage());
+                        return null;
                     }
                 })
                 .filter(Objects::nonNull)
                 .toList();
 
+        // Add new programs (from forks) to the list
         prgList.addAll(newPrgList);
 
+        // Important: Update the repository so the GUI sees the new list
+        repository.setPrgList(prgList);
 
+        // Log after
         prgList.forEach(prg -> {
             try {
                 repository.logPrgStateExec(prg);
@@ -131,8 +127,6 @@ public class Controller implements ControllerInterface{
                 throw new RuntimeException(e);
             }
         });
-
-        repository.setPrgList(prgList);
     }
 
     @Override
@@ -150,5 +144,13 @@ public class Controller implements ControllerInterface{
     @Override
     public boolean getDisplayFlag() {
         return displayFlag;
+    }
+
+    public void setPrgList(List<ProgramState> prgList) {
+        repository.setPrgList(prgList);
+    }
+
+    public List<ProgramState> getPrgList() {
+        return repository.getPrgList();
     }
 }

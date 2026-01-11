@@ -196,7 +196,7 @@ void main() {
     );
     try {
         MyIDictionary<String, Type> env8 = new MyDictionary<>();
-        ex8.typecheck(env8); // expected to throw
+        ex8.typecheck(env8);
         ProgramState prg8 = new ProgramState(new ListExecutionStack(), new MapSymbolTable(), new ListOut(), new MapFileTable(), new MapHeap());
         prg8.executionStack().push(ex8);
         List<ProgramState> list8 = new ArrayList<>();

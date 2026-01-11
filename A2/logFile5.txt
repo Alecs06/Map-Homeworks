@@ -194,3 +194,101 @@ Out=Output: [30]
 FileTable=state.MapFileTable@5910e440
 Heap=Heap: {2=30}
 
+Id:5
+ExecutionStack:ExecutionStack: [CompoundStatement[first=VariableDeclarationStatement[type=Ref(INTEGER), variableName=v], second=CompoundStatement[first=new(v, ValueExpression[value=20]), second=CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=Ref(INTEGER), variableName=v], CompoundStatement[first=new(v, ValueExpression[value=20]), second=CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [VariableDeclarationStatement[type=Ref(INTEGER), variableName=v], CompoundStatement[first=new(v, ValueExpression[value=20]), second=CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]]
+SymbolTable:SymbolTable: {}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [CompoundStatement[first=new(v, ValueExpression[value=20]), second=CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]]
+SymbolTable:SymbolTable: {v=(0, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [CompoundStatement[first=new(v, ValueExpression[value=20]), second=CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]]
+SymbolTable:SymbolTable: {v=(0, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [new(v, ValueExpression[value=20]), CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]
+SymbolTable:SymbolTable: {v=(0, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [new(v, ValueExpression[value=20]), CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]
+SymbolTable:SymbolTable: {v=(0, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {}
+
+Id:5
+ExecutionStack:ExecutionStack: [CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]
+SymbolTable:SymbolTable: {v=(1, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {1=20}
+
+Id:5
+ExecutionStack:ExecutionStack: [CompoundStatement[first=new(v, ValueExpression[value=30]), second=PrintStatement[expression=rH(VariableExpression[variableName=v])]]]
+SymbolTable:SymbolTable: {v=(1, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {1=20}
+
+Id:5
+ExecutionStack:ExecutionStack: [new(v, ValueExpression[value=30]), PrintStatement[expression=rH(VariableExpression[variableName=v])]]
+SymbolTable:SymbolTable: {v=(1, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {1=20}
+
+Id:5
+ExecutionStack:ExecutionStack: [new(v, ValueExpression[value=30]), PrintStatement[expression=rH(VariableExpression[variableName=v])]]
+SymbolTable:SymbolTable: {v=(1, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {1=20}
+
+Id:5
+ExecutionStack:ExecutionStack: [PrintStatement[expression=rH(VariableExpression[variableName=v])]]
+SymbolTable:SymbolTable: {v=(2, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {1=20, 2=30}
+
+Id:5
+ExecutionStack:ExecutionStack: [PrintStatement[expression=rH(VariableExpression[variableName=v])]]
+SymbolTable:SymbolTable: {v=(2, INTEGER)}
+Out:Output: []
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {2=30}
+
+Id:5
+ExecutionStack:ExecutionStack: []
+SymbolTable:SymbolTable: {v=(2, INTEGER)}
+Out:Output: [30]
+FileTable:state.MapFileTable@799f7e29
+Heap:Heap: {2=30}
+

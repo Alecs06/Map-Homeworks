@@ -3,6 +3,7 @@ package state;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapFileTable implements FileTable{
@@ -34,5 +35,9 @@ public class MapFileTable implements FileTable{
         } catch (IOException exception) {
             throw new RuntimeException(exception);
         }
+    }
+
+    public List<String> getFileNames() {
+        return new java.util.ArrayList<>(fileTable.keySet());
     }
 }

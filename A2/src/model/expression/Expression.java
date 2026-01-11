@@ -13,6 +13,5 @@ public interface Expression {
     Value evaluate(SymbolTable symbolTable, Heap heap);
     Expression deepCopy();
 
-    // typecheck method: returns the type of the expression in the given type environment
     Type typecheck(MyIDictionary<String, Type> typeEnv) throws Exception;
 }

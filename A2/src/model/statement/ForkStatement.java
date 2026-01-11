@@ -32,7 +32,6 @@ public record ForkStatement(Statement statement) implements Statement {
 
     @Override
     public MyIDictionary<String, Type> typecheck(MyIDictionary<String, Type> typeEnv) throws Exception {
-        // fork executes the statement in a copy of the environment
         statement.typecheck(typeEnv.deepCopy());
         return typeEnv;
     }
